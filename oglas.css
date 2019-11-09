@@ -1,0 +1,32 @@
+#ozadje{
+  display: none;
+  position:fixed;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0,0,0,0.9);
+  z-index: 1;
+}
+
+#oglas{
+  display: none;
+  position: fixed;
+  z-index: 2;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: white;
+}
+
+#oglas h1{
+  color: green;
+}
+
+#zapri{
+  font-weight: 700;
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  cursor: pointer;
+  color: yellowgreen;
+}
